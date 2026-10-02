@@ -39,7 +39,7 @@ OUT = os.path.join(ROOT, "lists.json")
 
 # Владелец репозитория подставляется из окружения Actions, чтобы форк работал БЕЗ единой
 # правки: у форка свой base_url, и списки поедут из его дерева, а не из чужого.
-REPO = os.environ.get("GITHUB_REPOSITORY", "xyzmean/splify2-lists")
+REPO = os.environ.get("GITHUB_REPOSITORY", "splify2/splify2-lists")
 BRANCH = os.environ.get("GITHUB_REF_NAME", "main")
 BASE_URL = "https://raw.githubusercontent.com/%s/%s/lists" % (REPO, BRANCH)
 

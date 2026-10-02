@@ -1,6 +1,6 @@
 # splify2-lists
 
-Каталог списков для [splify2](https://github.com/xyzmean/splify2): что можно завернуть в
+Каталог списков для [splify2](https://github.com/splify2/splify2): что можно завернуть в
 туннель, одним файлом `lists.json`.
 
 Роутер скачивает **только** `lists.json` — в нём перечислено, какие списки бывают, как они
@@ -12,13 +12,13 @@
 В splify2: **Настройки → Списки → Источник списков**, вставить ссылку:
 
 ```
-https://github.com/xyzmean/splify2-lists/releases/latest/download/lists.json
+https://github.com/splify2/splify2-lists/releases/latest/download/lists.json
 ```
 
 Это же значение можно задать по ssh:
 
 ```sh
-uci set splify2.main.manifest_url='https://github.com/xyzmean/splify2-lists/releases/latest/download/lists.json'
+uci set splify2.main.manifest_url='https://github.com/splify2/splify2-lists/releases/latest/download/lists.json'
 uci commit splify2
 ```
 
