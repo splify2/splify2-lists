@@ -1,4 +1,17 @@
+<div align="center">
+
+<img src="https://splify2.github.io/assets/img/logo.svg" width="96" alt="">
+
 # splify2-lists
+
+**Каталог списков доменов и адресов для splify2**
+
+[![Документация](https://img.shields.io/badge/документация-splify2.github.io-a897ff)](https://splify2.github.io/docs/lists/)
+[![Лицензия](https://img.shields.io/github/license/splify2/splify2-lists?label=лицензия&color=6d5ce7)](LICENSE)
+[![Telegram](https://img.shields.io/badge/Telegram-чат-2CA5E0?logo=telegram&logoColor=white)](https://t.me/ssplify)
+
+</div>
+
 
 Каталог списков для [splify2](https://github.com/splify2/splify2): что можно завернуть в
 туннель, одним файлом `lists.json`.
@@ -49,7 +62,7 @@ python3 build.py     # зависимостей нет, только Python 3.8+
 ## Откуда берутся чужие списки
 
 `sources.txt` называет репозитории; из **последнего релиза** каждого берутся наборы `.srs`
-(формат sing-box). splify2 читает их сам — движок раскладывает набор на домены и подсети
+(формат sing-box). splify2 читает их сам — ядро steer раскладывает набор на домены и подсети
 (`steer srs-read`).
 
 Сейчас это:
@@ -96,7 +109,7 @@ python3 build.py     # зависимостей нет, только Python 3.8+
 ```
 
 - **`file`** — имя половины НА РОУТЕРЕ (и, для своих списков, путь относительно `base_url`).
-  Качается `.srs`, а движок держит в спеке текстовые списки: набор ему нужен только чтобы их
+  Качается `.srs`, а ядро steer держит в спеке текстовые списки: набор ему нужен только чтобы их
   получить. Поэтому у половин чужого набора имя от набора — `telegram.srs.lst`: происхождение
   списка читается прямо в правиле.
 - **`format: "srs"` и `url`** — «скачай вот это и разложи набором sing-box». Без них список
