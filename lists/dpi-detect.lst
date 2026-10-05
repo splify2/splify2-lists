@@ -1,0 +1,30 @@
+# name: DPI Detect
+# about: Домены, где ТСПУ подтверждённо режет соединение (обрыв TLS, заморозка ~16 КБ) дольше суток — находит DPI-монитор betternet, проверка напрямую каждые 6 часов; снятая блокировка уходит из списка сама
+# on: no
+#
+# Список ведётся автоматически: ручные правки перезапишутся при следующей синхронизации.
+
+amp-api-edge.apps.apple.com
+amp-api.apps.apple.com
+anitokyo.tv
+api.ipify.org
+connliberty.com
+dns.yo1nk.app
+gateway.instagram.com
+i.instagram.com
+i.scdn.co
+ident.mygaru.com
+meetings.googleapis.com
+platform.dash.cloudflare.com
+play.google.com
+ru.spankbang.com
+rutracker.org
+s.youtube.com
+sparrow.cloudflare.com
+splify2-telemetry-panel.vercel.app
+sxyprn.net
+unpkg.com
+vrchat.com
+www.githubstarmate.com
+www.linkedin.com
+youtubei.googleapis.com
