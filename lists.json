@@ -1,6 +1,6 @@
 {
-  "version": "2026-10-05_01-04",
-  "generated_at": "2026-10-05T01:04:58Z",
+  "version": "2026-10-05_10-39",
+  "generated_at": "2026-10-05T10:39:31Z",
   "base_url": "https://raw.githubusercontent.com/splify2/splify2-lists/main/lists",
   "categories": [
     {
@@ -350,7 +350,7 @@
       "id": "dpi-detect",
       "name_ru": "DPI Detect",
       "file": "dpi-detect.lst",
-      "count": 24,
+      "count": 18,
       "default_on": false,
       "description_ru": "Домены, где ТСПУ подтверждённо режет соединение (обрыв TLS, заморозка ~16 КБ) дольше суток — находит DPI-монитор betternet, проверка напрямую каждые 6 часов; снятая блокировка уходит из списка сама",
       "kind": "domains"
